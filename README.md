@@ -31,7 +31,7 @@ Since the application is written in Go, it can be pushed using the `go_buildpack
 Send a GET request to the application and specify the `vhost` parameter with the value you want:
 
 ```
-curl 'https://export-vhost.apps.rosebonbon.cf-app.com/?vhost=my_vhost'
+curl 'https://export-vhost.<APP-DOMAIN>/?vhost=my_vhost'
 ```
 
 Of course you can use a browser or any other HTTP client instead.
