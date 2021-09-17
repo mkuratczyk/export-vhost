@@ -1,0 +1,9 @@
+---
+applications:
+- name: export-vhost
+  services:
+  - shared-instance-admin
+  buildpacks:
+  - go_buildpack
+  # alternatively, this app can also be built locally and deployed using binary_buildpack
+  # - binary_buildpack
